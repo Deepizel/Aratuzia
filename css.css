@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    /* background: linear-gradient( to top, #000,#000); */
+    background-image: url(unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+
+.nav{
+    width: 1200px;
+    height: 70px;
+    /* float: left; */
+    margin: auto;
+}
+.icon{
+    width: 120px;
+    height: 70px;
+    float: left;
+}
+
+.logo{
+    font-family: Arial;
+    font-size: 40px;
+    margin-left: 5px;
+    padding:10px;
+    color: black;
+    margin-top: 19px;
+    /* float: left; */
+}
+.log{
+    color: darkred;
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+
+ul{
+    width: 400px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.nav a {
+    list-style: none;
+    font-weight: bold;
+    margin-left: 150px;
+    padding: 10px;
+    margin-top: 27px;
+    font-size: 24px;
+   text-decoration: none;
+   /* border-bottom: 1px solid red; */
+   display: flex;
+   justify-content: center;
+   color: black;
+   cursor: pointer;
+}
+
+.nav a:hover{
+    color: white;
+}
+
+.headertext{
+    margin: 60px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.toptext{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial;
+    font-style: oblique;
+}
+
+.lowtext{
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    margin: 25px;
+    width: 150px;
+    height: 30px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: bold; 
+    color: white;
+
+
+    background-color: brown;
+}
+
+.btn:hover{
+    background-color:darkred;
+}
+
+.contactform{
+    width: 25rem;
+    height: 25rem;
+    background-color: aliceblue;
+}
